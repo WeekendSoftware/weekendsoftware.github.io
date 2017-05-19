@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Weekend Software, LLC</title>
+        <style>
+            body {
+                background-color: #1E1E26;
+                font-family: Garamond, serif;
+                font-size: x-large;
+                }
+            a:link, a:visited {
+                color: #6A5ACD;
+            }
+            div.title {
+                background-color: #FFFAF0;
+                margin: auto;
+                max-width:800px;
+                border: 3px solid;
+                border-radius: 15px;
+                padding: 20px;
+                }
+            #goodvibes {
+                float: right;
+                border-radius: 5px;
+                }
+        </style>
+    </head>
+    <body>
+	<script>
+	function rate(y)
+	{
+		var year = new Date().getFullYear();
+		var inflation = 0.05;
+		return (y + (y * inflation * (year - 2016))).toFixed(2);
+	}
+	</script>
+        <div class="title">
+            Weekend Software, LLC<br>
+            Greg Dietsche, Owner
+            <br>
+            <p>Work with a professional to create your very own website! Weekend Software, LLC has been proudly serving small businesses, schools, and churches since 2010.</p>
+            <p>You can be the proud owner of a website that is customized to meet your exact needs. We'll handle all of the hard things like managing servers, protecting you from hackers, backups, and a whole lot more.</p>
+            <p>Greg will work with you <b>one on one</b> to create a stunning site design tailored to your tastes. You'll be able to edit your own web pages using an easy to use publishing platform known as Wordpress. <a href="mailto:sales@weekendsoftware.com?subject=My%20New%20Web%20Site">Click Here</a> to get started!</p>
+            <p>You're in good hands with Greg! He holds a Master Degree in Information Technology, a Bachelor of Computer Science, and has taught Master level web systems and technology classes!</p>
+            Current Rates:
+            <ul>
+                <li>$<script>document.write(rate(138));</script> / hour - professional web design &amp; development</li>
+                <li>Web hosting with free security monitoring and nightly backups starting at $<script>document.write(rate(80));</script> per month</li>
+            </ul>
+        </div>
+    </body>
+</html>
